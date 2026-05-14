@@ -1,0 +1,29 @@
+{
+  "datasets": [
+    {
+      "dataset_id": "ds004584",
+      "commit": "261510fd9780d738a77fee52b906b3d56b69b74e",
+      "dataset_root": "/project_data/openneuro/ds004584"
+    },
+    {
+      "dataset_id": "ds007020",
+      "commit": "b063f0d23e466fa4dfd77b6e4afaf6fb4f672a9a",
+      "dataset_root": "/project_data/openneuro/ds007020"
+    },
+    {
+      "dataset_id": "ds004752",
+      "commit": "234fd4c04dea66ab9b0fd5ddbf4ec51f56b6ad02",
+      "dataset_root": "/project_data/openneuro/ds004752"
+    },
+    {
+      "dataset_id": "ds007262",
+      "commit": "5544e0ff41c4f1de8a571530996ea81f13dee311",
+      "dataset_root": "/project_data/openneuro/ds007262"
+    },
+    {
+      "dataset_id": "ds004504",
+      "commit": "73b1b04c0a8e45e96c6f0682cc077a7919480fc4",
+      "dataset_root": "/project_data/openneuro/ds004504"
+    }
+  ]
+}

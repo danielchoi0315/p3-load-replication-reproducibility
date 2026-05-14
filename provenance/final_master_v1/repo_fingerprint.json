@@ -1,0 +1,282 @@
+{
+  "git_head": null,
+  "mode": "sha256_manifest",
+  "repo_root": "/project_root/analysis_pipeline",
+  "files": [
+    {
+      "path": "00_stage_data.py",
+      "sha256": "0faca3c2d94fc647e0ed4c44344cb259ba45c7d398d532734aaaea990eb3dbbf",
+      "size": 2588
+    },
+    {
+      "path": "01_preprocess_CPU.py",
+      "sha256": "109c6d5e928be253e5c70c7e5c7ab873ea768e5e9efe01a7054710feb4d1961d",
+      "size": 9846
+    },
+    {
+      "path": "02_extract_features_CPU.py",
+      "sha256": "41f969f0711452568515a13ab11d353b6c55bf035cda1b68053673276ddf02f3",
+      "size": 20976
+    },
+    {
+      "path": "03_bayesian_mechanism_GPU.py",
+      "sha256": "25e292c029f3b61180efab24b7efa114a80591c173f2de7ed39f307328eeca22",
+      "size": 17176
+    },
+    {
+      "path": "04_normative_clinical_GPU.py",
+      "sha256": "beac9572344786cacef5d61c93cd5887b053ab2f37c44370a0d7e1de3bf5f3dc",
+      "size": 24723
+    },
+    {
+      "path": "05_audit_lawc.py",
+      "sha256": "5b5e7e8d1b391d51823317b19b3f5c577adafd9f9c8e454e20db2d70f3a34cc2",
+      "size": 14246
+    },
+    {
+      "path": "aggregate_results.py",
+      "sha256": "1f96dc6dd315fda19de7fc4413f04ecda0a85df7d4c74dbc8e848e809af60921",
+      "size": 12976
+    },
+    {
+      "path": "common/__init__.py",
+      "sha256": "7dd15f399e7e37adf5be56eb8750fd8965b3d893d9456342d7d954f09fa8d2f1",
+      "size": 106
+    },
+    {
+      "path": "common/data_staging.py",
+      "sha256": "0a79e6c450a65d228ab1c87488555668505a7546d948509df8ea8d36d01dcda1",
+      "size": 16841
+    },
+    {
+      "path": "common/hardware.py",
+      "sha256": "08c849ab63ec91dcb0dd9705d16152d10c94a6978b23a45e1b302f567e117b86",
+      "size": 19634
+    },
+    {
+      "path": "common/lawc_audit.py",
+      "sha256": "df16f0aad2fdc619b8eb3a5c8c21bde6837d86e7634a0da981fbe7baa3e36dce",
+      "size": 38014
+    },
+    {
+      "path": "scripts/build_clinical_severity_from_participants.py",
+      "sha256": "82371c7080e030cec34b45990b27fc637c30b2864c94b120010465ad6b3aa65f",
+      "size": 8608
+    },
+    {
+      "path": "scripts/clinical_apply.py",
+      "sha256": "58366c042eeb966db20261a45369bd2f7d2c4f510895ecfc321496d9ec908721",
+      "size": 9205
+    },
+    {
+      "path": "scripts/clinical_decode_mapping.py",
+      "sha256": "4e3a5bd9657ff60e1574799df14fee50b89d14a5dd93b8d57e199ebc033f2f0c",
+      "size": 28819
+    },
+    {
+      "path": "scripts/clinical_overnight10h_runner.py",
+      "sha256": "e7bc08c5df936811f316e5d801c6dcb4c4daf26a8e540674ba831a3dc9a6f191",
+      "size": 66466
+    },
+    {
+      "path": "scripts/clinical_solid2_runner.py",
+      "sha256": "c9cd7b2ca2a3a1029d708d114052ae1bf5232c6e510a20c2db839ead50a10164",
+      "size": 62711
+    },
+    {
+      "path": "scripts/decode_ds004752.py",
+      "sha256": "a1df4cf62da9573171e24bb9d625fc0ef43be402009d8f90a37d72599b2f9298",
+      "size": 4326
+    },
+    {
+      "path": "scripts/decode_ds007262.py",
+      "sha256": "d8b7a6bed56ec3dbc964ed56b5c38fff86ead3a2947bace11175327582bc0756",
+      "size": 4414
+    },
+    {
+      "path": "scripts/effect_size_pack.py",
+      "sha256": "920b16a860ba78e90a103a2ef391b4c907f12227895c8121022c8d966b337b59",
+      "size": 12266
+    },
+    {
+      "path": "scripts/inspect_events.py",
+      "sha256": "decc5ed11398eb17ab92f06d974d47e65a6b7175879b3ac4980f29fd6d0080c1",
+      "size": 8072
+    },
+    {
+      "path": "scripts/lawc_sensitivity.py",
+      "sha256": "e7c03430dcbe30f6ff53f635d996f83145f92183cf9bed1427dd43586fef618c",
+      "size": 16912
+    },
+    {
+      "path": "scripts/mechanism_deep.py",
+      "sha256": "ac88057373488156baeb4460891711e86c12310325bb71d1db22dca52bafa2bb",
+      "size": 34325
+    },
+    {
+      "path": "scripts/nn_final_master_v1_runner.py",
+      "sha256": "412919d0724a4e232cd6e1eb7780df15c3c1237446d720c1cdd6659a23022b70",
+      "size": 125091
+    },
+    {
+      "path": "scripts/nn_final_mega_runner.py",
+      "sha256": "125611f311eb33d740b0f6d6aec370e4cb17e70d11822fb452f986f05bc9fd57",
+      "size": 144206
+    },
+    {
+      "path": "scripts/nn_final_mega_v2_bio_runner.py",
+      "sha256": "9d6fd9f2a041e01da2e8d3ed2e259a6f0fe73b4f182e11c1c195b6e0e936b113",
+      "size": 191796
+    },
+    {
+      "path": "scripts/nn_final_mega_v3_1_runner.py",
+      "sha256": "668aff47e0e66886bb9621ebd8f4b49e14b2c24d04bb86a39170fde961446e8f",
+      "size": 98789
+    },
+    {
+      "path": "scripts/nn_final_mega_v3_clinicalfix_runner.py",
+      "sha256": "7e868e32f3f96c69c857dc84f5c48343e24e05c8c18ff283b40022f2b4c6b34a",
+      "size": 72699
+    },
+    {
+      "path": "scripts/nn_final_push_runner.py",
+      "sha256": "6e648d8028b15da85292da4d8ac4e9752e3dcc68a00debf3f6a355abbc858c4c",
+      "size": 102215
+    },
+    {
+      "path": "scripts/nn_final_push_v2_runner.py",
+      "sha256": "9dd72f2b261cec73749028a34f06b632c26c00dc605f43b2ce70b3a45c1c1908",
+      "size": 84975
+    },
+    {
+      "path": "scripts/nn_solid_1_2_runner.py",
+      "sha256": "cfe6be7b357aa43371586b4e2805eec0c29679c7257c62ebdc6c9e65424c0ffa",
+      "size": 39204
+    },
+    {
+      "path": "scripts/overnight_reviewerproof_runner.py",
+      "sha256": "2d8853ab151fa19795069e8cd53943df2d9be2bf67d42984fae47dcf101ed888",
+      "size": 48686
+    },
+    {
+      "path": "scripts/pd_decode_mapping_ds003490.py",
+      "sha256": "dcb9b9f5f4cd6a1fb5cd98c3458837f8507a2f8da61851bcaf658103d1c2988a",
+      "size": 8123
+    },
+    {
+      "path": "scripts/pd_run_ds003490.py",
+      "sha256": "2a393c224e04318e643beffaf4e054903003247456ea68281f55fddce70c2782",
+      "size": 29509
+    },
+    {
+      "path": "scripts/pearl_decode_mapping.py",
+      "sha256": "5b684791d9a064be1c31f1d1e6fc7890d8cbeece729992951753f47681303e47",
+      "size": 20319
+    },
+    {
+      "path": "scripts/pearl_extract_features.py",
+      "sha256": "828771f697c1005855e10f9abf7b8668e16386759198afe7c0614195ade997d0",
+      "size": 9005
+    },
+    {
+      "path": "scripts/pearl_lawc_audit.py",
+      "sha256": "be2dbd3830b46a8ea14aa14aca257389deb122afd3ac9744df88663f52d48a2f",
+      "size": 5303
+    },
+    {
+      "path": "scripts/pearl_normative_risk.py",
+      "sha256": "b60f53e3f884f86c8348b266f655902feaa9db8c8404b40a2e4e566f8afada20",
+      "size": 24190
+    },
+    {
+      "path": "scripts/pearl_rest_slowing.py",
+      "sha256": "0a25166158955abd8e9783b25dbcdbaef742fbcd2aeca368d883bc46c7e4c0e2",
+      "size": 7945
+    },
+    {
+      "path": "scripts/pearl_solid2_runner.py",
+      "sha256": "810f5ec412ad1f6b75cfa2c67cbc838da1d3b371f3733913780b9d8bd37f5736",
+      "size": 32668
+    },
+    {
+      "path": "scripts/plot_seed_stability.py",
+      "sha256": "fd44eb9a13f31af19a541948dd0edd2360d8f96bce9e407bb11a6421c5a4171d",
+      "size": 4137
+    },
+    {
+      "path": "scripts/rt_linkage_audit.py",
+      "sha256": "5e4a2d5682f630b4947d7e67fc60e5cf3c8c21a75dabe212c6442867c29a54dc",
+      "size": 19209
+    },
+    {
+      "path": "src/p3b_pipeline/__init__.py",
+      "sha256": "bac93b6c5b3537a49148b633bd374089a4dc6d85530a788300b01e0b31dc7db4",
+      "size": 425
+    },
+    {
+      "path": "src/p3b_pipeline/bayes_mediation.py",
+      "sha256": "6592078d288c1aba26be458736ffb4747091e52e57ba60966751cedd971a2c2e",
+      "size": 7735
+    },
+    {
+      "path": "src/p3b_pipeline/bids_utils.py",
+      "sha256": "0a6c70447d15559529d61adf207f14575e94d430083d49b3e06c536618bfeebe",
+      "size": 5184
+    },
+    {
+      "path": "src/p3b_pipeline/clinical.py",
+      "sha256": "c59e7638d95036fd53234b118857c5f585a180103dd500c3c08bc6fa0f3a8fec",
+      "size": 3466
+    },
+    {
+      "path": "src/p3b_pipeline/config.py",
+      "sha256": "7857f3e44b1322dc63b1bf1bc4c243015d036eb9017831db87bb0083dbc27a3c",
+      "size": 850
+    },
+    {
+      "path": "src/p3b_pipeline/eeg.py",
+      "sha256": "fec0e5cbcd458c9f08d622a85dc7710f15c67fa64413a7b42d319c9ad3d037a5",
+      "size": 20199
+    },
+    {
+      "path": "src/p3b_pipeline/env.py",
+      "sha256": "b8ad6499165193ac9895f70fc43eaf9fe788a1be33cba4c12de087cf66929967",
+      "size": 3119
+    },
+    {
+      "path": "src/p3b_pipeline/h5io.py",
+      "sha256": "db079e66f8097df294066d89e6b87e9d1080fc8fa7a7fa5f8aa4d6d9e5c83adb",
+      "size": 3201
+    },
+    {
+      "path": "src/p3b_pipeline/logging_utils.py",
+      "sha256": "e75f2cfb6816539a0d5c2658b460ca07380928096f08f631396bfee289fa9dc5",
+      "size": 1332
+    },
+    {
+      "path": "src/p3b_pipeline/manifest.py",
+      "sha256": "ea402f07053089f7a0841aa3b778eb18097ec50dc14f2fe66c4c7b96cb63e4a7",
+      "size": 1685
+    },
+    {
+      "path": "src/p3b_pipeline/normative.py",
+      "sha256": "be57b61734b12cce80a02beef4e0c19dd85926925a678e767ccb917bfc856057",
+      "size": 8091
+    },
+    {
+      "path": "src/p3b_pipeline/pupil.py",
+      "sha256": "ffe98749b1a53c59f0010851ca7796892432b7383609c9b1a5ffc09999fd3481",
+      "size": 6003
+    },
+    {
+      "path": "src/p3b_pipeline/rt_linkage.py",
+      "sha256": "c4b7a43da71bbee05a36b5e8b0ffe9d050e5e9c2bd17ca73e8d818b55c16c27d",
+      "size": 3087
+    },
+    {
+      "path": "src/p3b_pipeline/torch_utils.py",
+      "sha256": "ba4390008303cce0ce129136a62f0b5bd9618c02b700e659fed81266d080ec27",
+      "size": 1812
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "stage": "core_lawc_ultradeep",
+  "status": "PASS",
+  "returncode": 0,
+  "started_at": "2026-02-23T05:40:02.512950+00:00",
+  "ended_at": "2026-02-23T06:19:48.519484+00:00",
+  "elapsed_sec": 2386.0065338611603,
+  "log": "/project_runs/canonical_v2/AUDIT/core_lawc_ultradeep.log",
+  "summary": "/project_runs/canonical_v2/AUDIT/core_lawc_ultradeep_summary.json",
+  "command": "Law-C ultradeep + effect sizes + meta-analysis",
+  "outputs": [
+    "/project_runs/canonical_v2/PACK_CORE_LAWC/lawc_ultradeep/lawc_audit/locked_test_results.json",
+    "/project_runs/canonical_v2/PACK_CORE_LAWC/lawc_ultradeep/lawc_audit/locked_test_results.csv",
+    "/project_runs/canonical_v2/PACK_CORE_LAWC/lawc_ultradeep/lawc_audit/negative_controls.csv",
+    "/project_runs/canonical_v2/PACK_CORE_LAWC/lawc_ultradeep/lawc_audit/meta_random_effects.json",
+    "/project_runs/canonical_v2/PACK_CORE_LAWC/effect_sizes/effect_size_summary.csv"
+  ],
+  "error": "",
+  "lawc_candidates": [
+    "ds003655",
+    "ds004117",
+    "ds004796",
+    "ds005095"
+  ],
+  "lawc_run_datasets": [
+    "ds003655",
+    "ds004117",
+    "ds005095"
+  ],
+  "lawc_n_perm": 100000,
+  "meta_random_effects": {
+    "k": 3,
+    "mu_fixed": 0.03008618055107838,
+    "mu_random": 0.03008618055107838,
+    "tau2": 0.0,
+    "I2": 0.0,
+    "Q": 0.06281854727340744
+  }
+}

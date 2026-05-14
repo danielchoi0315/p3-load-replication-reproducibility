@@ -1,0 +1,37 @@
+{
+  "stage": "normative_lodo_manyseed",
+  "status": "PASS",
+  "returncode": 0,
+  "started_at": "2026-02-23T06:37:06.101435+00:00",
+  "ended_at": "2026-02-23T06:37:09.696259+00:00",
+  "elapsed_sec": 3.5948240756988525,
+  "log": "/project_runs/canonical_v2/AUDIT/normative_lodo_manyseed.log",
+  "summary": "/project_runs/canonical_v2/AUDIT/normative_lodo_manyseed_summary.json",
+  "command": "GPU ridge LODO many-seed (bf16+compile fallback)",
+  "outputs": [
+    "/project_runs/canonical_v2/PACK_NORMATIVE/lodo_seed_fold_metrics.csv",
+    "/project_runs/canonical_v2/PACK_NORMATIVE/lodo_fold_summary.csv",
+    "/project_runs/canonical_v2/PACK_NORMATIVE/normative_lodo_summary.json",
+    "/project_runs/canonical_v2/PACK_NORMATIVE/FIG_lodo_nll_by_fold.png"
+  ],
+  "error": "",
+  "n_trials_total": 30086,
+  "datasets_used": [
+    "ds003655",
+    "ds004117",
+    "ds004796",
+    "ds005095"
+  ],
+  "n_folds": 4,
+  "n_seeds_requested": 500,
+  "n_seeds_completed": 500,
+  "compile_ok": false,
+  "compile_reason": "fallback-eager:Too few parameters for <class 'torch._inductor.codegen.common.CSE'>; actual 1, expected 2",
+  "preload_gpu_tensors": true,
+  "gpu_stage_util": {
+    "stage_util_gpu_mean": 12.75,
+    "stage_util_gpu_median": 12.5,
+    "pre_util_gpu_mean": 0.0,
+    "util_rise_confirmed": true
+  }
+}

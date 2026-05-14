@@ -1,0 +1,24 @@
+{
+  "stage": "mechanism_deep",
+  "status": "PASS",
+  "returncode": 0,
+  "started_at": "2026-02-23T06:21:23.262538+00:00",
+  "ended_at": "2026-02-23T06:37:06.101103+00:00",
+  "elapsed_sec": 942.8385646343231,
+  "log": "/project_runs/canonical_v2/AUDIT/mechanism_deep.log",
+  "summary": "/project_runs/canonical_v2/AUDIT/mechanism_deep_summary.json",
+  "command": "mechanism_deep.py + auditfix",
+  "outputs": [
+    "/project_runs/canonical_v2/PACK_MECHANISM/Table_mechanism_effects.csv",
+    "/project_runs/canonical_v2/PACK_MECHANISM/aggregate_mechanism.json",
+    "/project_runs/canonical_v2/PACK_MECHANISM/FIG_load_vs_pupil.png",
+    "/project_runs/canonical_v2/PACK_MECHANISM/FIG_pupil_vs_p3_partial.png",
+    "/project_runs/canonical_v2/PACK_MECHANISM/FIG_mediation_ab.png",
+    "/project_runs/canonical_v2/PACK_MECHANISM/FIG_mechanism_summary.png",
+    "/project_runs/canonical_v2/PACK_MECHANISM/MECHANISM_SANITY.md",
+    "/project_runs/canonical_v2/PACK_MECHANISM/mechanism_negative_controls_summary.json"
+  ],
+  "error": "",
+  "seeds": "0-199",
+  "n_perm": 10000
+}

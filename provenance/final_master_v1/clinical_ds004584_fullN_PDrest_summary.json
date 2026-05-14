@@ -1,0 +1,27 @@
+{
+  "stage": "clinical_ds004584_fullN_PDrest",
+  "status": "PASS",
+  "returncode": 0,
+  "elapsed_sec": 111.14632964134216,
+  "started_at": "2026-02-23T19:01:47.540766+00:00",
+  "ended_at": "2026-02-23T19:03:38.687120+00:00",
+  "command": "clinical ds004584 fullN",
+  "log": "/project_runs/final_master_v1/AUDIT/clinical_ds004584_fullN_PDrest.log",
+  "summary": "/project_runs/final_master_v1/AUDIT/clinical_ds004584_fullN_PDrest_summary.json",
+  "error": "",
+  "outputs": [
+    "/project_runs/final_master_v1/PACK_CLINICAL_PDREST_MASTER/pdrest_features.csv",
+    "/project_runs/final_master_v1/PACK_CLINICAL_PDREST_MASTER/pdrest_endpoints.csv",
+    "/project_runs/final_master_v1/PACK_CLINICAL_PDREST_MASTER/FIG_pdrest_primary_auc_roc.png",
+    "/project_runs/final_master_v1/PACK_CLINICAL_PDREST_MASTER/FIG_pdrest_calibration.png",
+    "/project_runs/final_master_v1/PACK_CLINICAL_PDREST_MASTER/EXCLUSIONS.csv"
+  ],
+  "n_subjects_expected": 149,
+  "n_subjects_used": 123,
+  "n_pd_used": 74,
+  "n_cn_used": 49,
+  "n_endpoints": 8,
+  "n_perm_done": 20000,
+  "n_boot_done": 2000,
+  "group_column": "GROUP"
+}

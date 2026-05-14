@@ -1,0 +1,11 @@
+name: p3-load-boundary-map
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip>=24
+  - git
+  - git-annex
+  - r-base>=4.3
+  - pip:
+      - -r analysis_pipeline/requirements.txt

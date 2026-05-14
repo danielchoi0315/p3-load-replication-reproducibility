@@ -1,0 +1,42 @@
+{
+  "stage": "clinical_translation",
+  "status": "PASS",
+  "returncode": 0,
+  "started_at": "2026-02-23T07:13:56.044404+00:00",
+  "ended_at": "2026-02-23T07:19:17.261393+00:00",
+  "elapsed_sec": 321.21698904037476,
+  "log": "/project_runs/canonical_v2/AUDIT/clinical_translation.log",
+  "summary": "/project_runs/canonical_v2/AUDIT/clinical_translation_summary.json",
+  "command": "clinical translation ds004504+ds004584+ds007020",
+  "outputs": [
+    "/project_runs/canonical_v2/PACK_CLINICAL_DEMENTIA/spectral_subject_features.csv",
+    "/project_runs/canonical_v2/PACK_CLINICAL_DEMENTIA/normative_deviation_scores.csv",
+    "/project_runs/canonical_v2/PACK_CLINICAL_DEMENTIA/dementia_endpoints.csv",
+    "/project_runs/canonical_v2/PACK_CLINICAL_DEMENTIA/inclusion_exclusion_summary.json",
+    "/project_runs/canonical_v2/PACK_CLINICAL_PDREST/spectral_subject_features.csv",
+    "/project_runs/canonical_v2/PACK_CLINICAL_PDREST/normative_deviation_scores.csv",
+    "/project_runs/canonical_v2/PACK_CLINICAL_PDREST/pd_rest_endpoints.csv",
+    "/project_runs/canonical_v2/PACK_CLINICAL_PDREST/FIG_pdrest_primary_auc_roc.png",
+    "/project_runs/canonical_v2/PACK_CLINICAL_PDREST/FIG_pdrest_calibration.png",
+    "/project_runs/canonical_v2/PACK_CLINICAL_MORTALITY/spectral_subject_features.csv",
+    "/project_runs/canonical_v2/PACK_CLINICAL_MORTALITY/normative_deviation_scores.csv",
+    "/project_runs/canonical_v2/PACK_CLINICAL_MORTALITY/mortality_endpoints.csv",
+    "/project_runs/canonical_v2/PACK_CLINICAL_MORTALITY/FIG_mortality_primary_auc_roc.png",
+    "/project_runs/canonical_v2/PACK_CLINICAL_MORTALITY/FIG_mortality_calibration.png",
+    "/project_runs/canonical_v2/PACK_CLINICAL/clinical_endpoints_all.csv",
+    "/project_runs/canonical_v2/PACK_CLINICAL/clinical_status_by_dataset.json"
+  ],
+  "error": "",
+  "status_by_dataset": {
+    "ds004504": "PASS",
+    "ds004584": "PASS",
+    "ds007020": "PASS"
+  },
+  "reasons_by_dataset": {
+    "ds004504": "",
+    "ds004584": "",
+    "ds007020": ""
+  },
+  "clinical_perm_done": 20000,
+  "n_endpoints_total": 32
+}
