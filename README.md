@@ -10,6 +10,10 @@ This repository contains the analysis code and audit lineage for the paper on th
   Supported raw-data rerun and audit-comparison workflow.
 - `environment.yml`
   Conda environment for the public analysis stack.
+- `source_data/`
+  Figure source-data CSV files used to generate or audit the submitted display items.
+- `support_scripts/`
+  Small support scripts for assembling source-data files into display-ready inputs.
 
 ## Repository Layout
 
@@ -17,6 +21,10 @@ This repository contains the analysis code and audit lineage for the paper on th
   Python pipeline for staging data, preprocessing EEG, extracting features, running mechanism and normative models, and assembling audit outputs.
 - `provenance/`
   Frozen audit summaries and file fingerprints linking the reported results to the run lineage.
+- `source_data/`
+  Submitted figure source-data CSV files.
+- `support_scripts/`
+  Reviewer-facing support scripts that do not require raw EEG data.
 
 ## Running The Analysis
 
@@ -45,12 +53,12 @@ Two frozen audit snapshots are included:
 - `provenance/final_master_v1/`
   Later tightened run used for the final clinical freeze and final audit summaries.
 
-For reported numerical summaries, compare regenerated outputs against the audit files under `provenance/` and the reviewer-facing source-data bundle submitted with the manuscript.
+For reported numerical summaries, compare regenerated outputs against the audit files under `provenance/` and the figure source-data files under `source_data/`.
 
 ## Not Included
 
 - Raw OpenNeuro dataset payloads
 - Large intermediate run trees and scratch outputs
-- Manuscript source files, submitted PDFs, figures, and figure-rendering assets
+- Manuscript source files, submitted PDFs, rendered figure PDFs, and figure-rendering assets
 - Temporary submission-staging material
 - Embedded git state from the original working copy

@@ -1,0 +1,4 @@
+dataset,subjects,trials,median_rho,perm_p,bh_q,x_degraded,y_degraded,rt_coverage,rt_source,p3_channel,fallback_count
+ds003655,156,16371,0.019577353652483,0.025159496810064,0.025159496810064,True,True,0.9944,derived:next_response_regex_match(s),Pz,0
+ds004117,22,1666,0.062757706860115,0.020939581208376,0.025159496810064,True,True,1.0,derived:same_trial_click(s),PZ,0
+ds005095,41,5587,0.056062273067223,0.000579988400232,0.001739965200696,True,True,0.9987,derived:next_response_any(s),Pz,0
