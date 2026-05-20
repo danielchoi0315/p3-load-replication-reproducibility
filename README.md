@@ -11,7 +11,7 @@ This repository contains the analysis code and audit lineage for the paper on th
 - `environment.yml`
   Conda environment for the public analysis stack.
 - `source_data/`
-  Figure source-data CSV files used to generate or audit the submitted display items.
+  Source-data CSV files used to generate or audit the submitted display items.
 - `support_scripts/`
   Small support scripts for assembling source-data files into display-ready inputs.
 
@@ -22,7 +22,7 @@ This repository contains the analysis code and audit lineage for the paper on th
 - `provenance/`
   Frozen audit summaries and file fingerprints linking the reported results to the run lineage.
 - `source_data/`
-  Submitted figure source-data CSV files.
+  Submitted display-item source-data CSV files.
 - `support_scripts/`
   Reviewer-facing support scripts that do not require raw EEG data.
 

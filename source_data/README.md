@@ -1,6 +1,8 @@
 # Figure source data
 
-This folder contains CSV files used to generate or audit the submitted main and supplementary figures.
+This folder contains CSV files used to generate or audit the submitted display items.
+
+The current Communications Psychology submission uses three main figures. The clinical and resting-state CSVs retain their original `Figure4*` filenames for provenance continuity, but in the current manuscript package they support the downstream boundary material consolidated into the Supplementary Information and the clinical/resting-state summary tables.
 
 Main figures:
 
@@ -10,6 +12,9 @@ Main figures:
 - `Figure3A_mechanism_metrics.csv`
 - `Figure3B_rt_linkage.csv`
 - `Figure3C_normative_stability.csv`
+
+Downstream boundary and translation source data:
+
 - `Figure4A_clinical_selected.csv`
 - `Figure4B_clinical_auc_heatmap.csv`
 - `Figure4C_pdrest_raw_violin.csv`

@@ -101,9 +101,9 @@ The code-facing audit sources included here are:
 - `provenance/canonical_v2/*`
 - `provenance/final_master_v1/*`
 
-If your goal is to verify the submitted figures and tables directly, use the reviewer-facing source-data bundle supplied with the journal submission. That bundle contains manuscript source, figure source-data CSVs, table files, and support scripts; those assets are intentionally not duplicated in this public code repository.
+If your goal is to verify the submitted figures and tables directly, use the reviewer-facing submission bundle supplied through the journal system. This repository duplicates the source-data CSVs and support scripts, but it intentionally does not track manuscript source files, submitted PDFs, rendered figure PDFs, or table-source files.
 
 ## Practical Scope
 
 - The raw-data rerun path is compute-heavy and may require manual repair of annexed files for some datasets, as reflected in the included provenance snapshots.
-- The journal submission bundle is the authoritative source for submitted manuscript files, figure source data, and rendered display items.
+- The journal submission bundle is the authoritative source for submitted manuscript files, table-source files, rendered display items, and the exact reviewer-facing Supplementary Software zip.
