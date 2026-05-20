@@ -2,7 +2,7 @@
 
 This folder contains CSV files used to generate or audit the submitted display items.
 
-The current Communications Psychology submission uses three main figures. The clinical and resting-state CSVs retain their original `Figure4*` filenames for provenance continuity, but in the current manuscript package they support the downstream boundary material consolidated into the Supplementary Information and the clinical/resting-state summary tables.
+The `Figure4*` filenames are retained for provenance continuity. In four-main-figure submission packages they support the downstream boundary figure; in more condensed packages they support the corresponding downstream boundary material in the Supplementary Information and clinical/resting-state summary tables.
 
 Main figures:
 
